@@ -1,7 +1,5 @@
 # Preview
 
-Drop shots in `preview/` with these names. They show up here as soon as they are in the repo.
-
 ## Window
 
 ![Window](preview/window.png)
