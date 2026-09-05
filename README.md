@@ -2,6 +2,8 @@
 
 A launcher for Roblox for macOS, and I hate Swift now.
 
+Current drop: **v1.00-Robbed** (`vA.BC` — A major, B minor, C patch. `-Robbed` is beta, `-Roblox` is a full release.)
+
 RoBlow launches the official Roblox player, keeps multiple instances, and puts roblox.com in its own browser (New UI).
 
 ## Install

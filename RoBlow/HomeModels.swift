@@ -335,7 +335,7 @@ final class HomeBoard {
     var news: [NewsItem] = []
     var newsFailed = false
     var patchVersion: String {
-        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
+        RoBlowVersion.displayed
     }
     let changelog = [
         "Real Roblox account sign-in and instance launch",

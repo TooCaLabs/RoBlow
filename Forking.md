@@ -140,6 +140,15 @@ Install flow is the Chrome Web Store wrapper in-app, CRX download, unpack under 
 
 Binds must not fire while the user is typing (`QuickTerm` already skips text fields and a focused WKWebView).
 
+## Versions
+
+`vA.BC` then a channel. A is major, B is minor, C is patch. `v1.10` means minor 1, patch 0.
+
+- `-Robbed` — beta
+- `-Roblox` — full release
+
+This tree is `v1.00-Robbed`. Change `MARKETING_VERSION` in the Xcode target and `RoBlowVersion.mark` in `RoBlow/Version.swift` together.
+
 ## License when you ship a fork
 
 [MIT](LICENSE). Keep `Copyright (c) 2026 TooCaLabs` in the license text. Add your own copyright line above or below it if you want.

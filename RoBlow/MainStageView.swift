@@ -131,8 +131,13 @@ struct AboutPanel: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack {
-                Text("About RoBlow")
-                    .font(.system(size: 20, weight: .semibold))
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("About RoBlow")
+                        .font(.system(size: 20, weight: .semibold))
+                    Text(RoBlowVersion.displayed)
+                        .font(.system(size: 12, weight: .medium, design: .monospaced))
+                        .foregroundStyle(.primary.opacity(0.45))
+                }
                 Spacer()
                 Button {
                     model.dismissOverlays()
