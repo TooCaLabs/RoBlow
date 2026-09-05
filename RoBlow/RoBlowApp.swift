@@ -15,6 +15,14 @@ struct RoBlowApp: App {
             ContentView()
                 .environment(model)
                 .containerBackground(.clear, for: .window)
+                .onAppear {
+                    if let icon = NSImage(named: "AppIcon") {
+                        NSApp.applicationIconImage = icon
+                    } else if let url = Bundle.main.url(forResource: "AppIcon", withExtension: "icns"),
+                              let icon = NSImage(contentsOf: url) {
+                        NSApp.applicationIconImage = icon
+                    }
+                }
         }
         .windowStyle(.hiddenTitleBar)
         .windowToolbarStyle(.unifiedCompact(showsTitle: false))
