@@ -1,0 +1,13 @@
+build/
+DerivedData/
+RoBlow.app/
+*.app/
+.DS_Store
+xcuserdata/
+*.xcuserstate
+*.swp
+.env
+.env.*
+*.p12
+*.cer
+*.mobileprovision
