@@ -46,7 +46,7 @@ if let tiff = mark.tiffRepresentation, let rep = NSBitmapImageRep(data: tiff),
 }
 
 let canvas = 1024
-let fill: CGFloat = 0.97
+let fill: CGFloat = 0.74
 let composed = NSImage(size: NSSize(width: canvas, height: canvas), flipped: false) { rect in
     let colors = [
         NSColor(srgbRed: 1, green: 1, blue: 1, alpha: 1).cgColor,
