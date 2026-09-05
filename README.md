@@ -27,6 +27,7 @@ RoBlow launches the official Roblox player, keeps multiple instances, and puts r
 
 - [How to use](https://github.com/TooCaLabs/RoBlow/blob/main/How_to_use.md)
 - [Quick-mode](https://github.com/TooCaLabs/RoBlow/blob/main/Quick_mode.md)
+- [Forking](https://github.com/TooCaLabs/RoBlow/blob/main/Forking.md)
 
 ## License
 
